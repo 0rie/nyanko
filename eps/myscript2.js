@@ -13,7 +13,7 @@ function setup() {
 }
 
 function preload() {
-    good = loadImage('good.png');
+    good = loadImage('heart.png');
 }
 
 function onButtonClick3() {
