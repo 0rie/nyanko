@@ -133,7 +133,7 @@ class pic {
     this.sy += grav
   }
   //図形描画  
-  ima() {
+  display() {
     image(this.img, this.x, this.y, this.sizex, this.sizey);
   }
 }
