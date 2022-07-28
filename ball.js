@@ -108,7 +108,7 @@ class pic {
     this.sx = random(-5, 5);
     this.sy = random(-5, 5);
     this.sizex = 100;
-    this.sizex = 100;
+    this.sizey = 100;
     this.d = 50;
   }
   //スピードや跳ね返りなどの数値計算
