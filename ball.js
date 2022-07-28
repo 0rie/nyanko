@@ -23,7 +23,7 @@ function setup() {
 }
 
 function preload(){
-    neko = loadImage('neko.png');
+    neko = loadImage('maru.png');
 }
 
 function onButtonClick1(){
