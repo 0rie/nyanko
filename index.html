@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>p5.js practice</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script src="button.js"></script>
 </head>
+
 <body>
-    
+    <input id="button1" type="button" value="話してくれボタン" onclick="OnButtonClick1();">
+    <input id="button2" type="button" value="話したいボタン" onclick="OnButtonClick2();">
+    <input id="button3" type="button" value="リアクションボタン" onclick="OnButtonClick3();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
+    <script src="myscript.js"></script>
+
+    <div class="container">
+        <p hidden id="waiwai" class="bound">
+            <span>わ</span>
+            <span>い</span>
+            <span>わ</span>
+            <span>い</span>
+            <span>し</span>
+            <span>た</span>
+            <span>い</span>
+        </p>
+    </div>
+
 </body>
+
 </html>
