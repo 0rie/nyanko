@@ -52,9 +52,9 @@ function draw() {
       balls[i].display();
     }
   //繰り返し処理によって配列の各要素にインスタンスの更新と表示処理を実行する
-  for (let i = 0; i < num_img; i++) {
-    nekos[i].update();
-    nekos[i].display();
+  for (let j = 0; i < num_img; i++) {
+    nekos[j].update();
+    nekos[j].display();
   }   
 }
 
