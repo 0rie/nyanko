@@ -46,13 +46,16 @@ function onButtonClick3(){
 
 function draw() {
   background(0, 0, 20, 50);
-  //繰り返し処理によって配列の各要素にインスタンスの更新と表示処理を実行する
-    for (let i = 0; i < num; i++) {
-        balls[i].update();
-        balls[i].display();
+//繰り返し処理によって配列の各要素にインスタンスの更新と表示処理を実行する
+  for (let i = 0; i < num; i++) {
+      balls[i].update();
+      balls[i].display();
     }
   //繰り返し処理によって配列の各要素にインスタンスの更新と表示処理を実行する
-    image(neko,300,300,100,100)
+  for (let i = 0; i < num; i++) {
+    nekos[i].update();
+    nekos[i].display();
+  }   
 }
 
 //クラスの記述
